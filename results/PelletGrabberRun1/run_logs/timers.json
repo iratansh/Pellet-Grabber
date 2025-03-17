@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1742182565",
+        "python_version": "3.10.8 | packaged by conda-forge | (main, Nov 22 2022, 08:25:29) [Clang 14.0.6 ]",
+        "command_line_arguments": "/Users/ishaanratanshi/miniconda3/envs/pelletgrabber/bin/mlagents-learn --run-id=PelletGrabberRun1",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.6.0",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1742182627"
+    },
+    "total": 62.349281625356525,
+    "count": 1,
+    "self": 0.009227165952324867,
+    "children": {
+        "run_training.setup": {
+            "total": 0.04440066730603576,
+            "count": 1,
+            "self": 0.04440066730603576
+        },
+        "TrainerController.start_learning": {
+            "total": 62.295653792098165,
+            "count": 1,
+            "self": 0.0005751252174377441,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.294765959028155,
+                    "count": 1,
+                    "self": 62.294765959028155
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0003127078525722027,
+                    "count": 1,
+                    "self": 0.0003127078525722027
+                }
+            }
+        }
+    }
+}
